@@ -1,0 +1,16 @@
+:root {
+  --color-light: #ffffff;
+  --color-dark: #181818;
+}
+
+:root {
+  --color-background: var(--color-light);
+  --color-text: var(--color-dark);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-background: var(--color-dark);
+    --color-text: var(--color-light);
+  }
+}
